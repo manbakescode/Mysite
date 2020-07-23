@@ -1,0 +1,173 @@
+/****************TAG SELECTORS********************/
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3282b8;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted 6px;
+  border-color: #e4e3e3;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #0f4c75;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bbe1fa;
+}
+
+/*******************CLASS SELECTORS******************/
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #3282b8;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #3282b8;
+  padding: 40px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+
+.flying-birds {
+  position: absolute;
+  left: 450px;
+  bottom: 100px;
+  width: 20%;
+}
+
+.saitama-img {
+  width: 20%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 90px auto;
+  padding: 50px;
+  text-align: left;
+}
+
+.java-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sql-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.noob {
+  color: #3282b8;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 50px auto 40px;
+}
+
+.btn {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 13px;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #0059A0 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  text-decoration: none;
+}
+
+.copy-right {
+  color: #bbe1fa;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+/**********************ID SELECTORS********************/
